@@ -6,26 +6,27 @@
     <title>Your Website Title</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="w-2/3 mx-auto text-white bg-black">
-    <section class="py-20 px-10"> 
+<body class="w-3/4 mx-auto text-white" style="background-color: #131022;"></body>
+    <section class="py-20 px-10 text-center"> 
         <h1 class="text-4xl mb-6">Usamos tecnologia para tornar a política portuguesa mais transparente</h1>
         <p class="text-xl">Conhece os nossos projetos e fica a par das novidades.</p>
     </section>
 
-    <section class="grid grid-cols-2 items-center justify-center px-10 py-20">
-        <img src="your_image.jpg" alt="Introduction Image" class="mb-4">
+   <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center px-10 py-20">
+        <img src="your_image.jpg" alt="Introduction Image" class="mb-4 rounded-lg">
         <div>
             <h2 class="text-3xl mb-4">Tudo começou quando um grupo de portugueses se juntaram</h2>
-            <p class="leading-relaxed">Através das redes sociais, juntou-se um grupo de pessoas que tinha interesse em desenvolver soluções 
-                tecnologicas para o país. De forma livre e descentralizada, começaram a criar projetos que ajudam os
-                portugueses a perceber melhor as propostas dos partidos e dos politicos.
+            <p class="text-lg leading-relaxed">Através das redes sociais, juntou-se um grupo de pessoas que tinha interesse em desenvolver soluções 
+                tecnológicas para o país. De forma livre e descentralizada, começaram a criar projetos que ajudam os
+                portugueses a perceber melhor as propostas dos partidos e dos políticos.
             </p>
         </div>
     </section>
 
     <section class="px-10 py-20">
-        <h2 class="text-3xl mb-10">Os nossos projetos</h2>
+        <h2 class="text-3xl mb-10 text-center">Os nossos projetos</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="">
                 <p class="py-2">GPT Politico</p>
@@ -44,21 +45,36 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-20 px-10">
+    <section class="py-20 px-10 text-center">
         <h2 class="text-3xl mb-6">Junta-te ao Telegram e acompanha as discussões!</h2>
-        <p class="text-xl">São mais de 50 membros juntos no Telegram a discutir os próximos projetos. Opina, colabora, e cria soluções para ajudar o país!</p>
-        <button class="py-6 my-4 mx-6">Junta-te ao Telegram</button>
-    </section>
+        <p class="text-">São mais de 50 membros juntos no Telegram a discutir os próximos projetos. Opina, colabora, e cria soluções para ajudar o país!</p>
+        
+        <div class="text-center mt-16"></div>
+            <a href="https://t.me/+LD5lVbySrnY0MDY8" class="bg-white border border-blue-500 hover:bg-blue-600 hover:border-blue-600 text-blue-500 py-3 px-6 rounded-md">
+                <i class="fab fa-telegram text-blue-500 group-hover:text-white"></i>
+            </a>
+            <div class="pt-4">
+                <h6 class="mb-1">Telegram</h6>
+                <p class="fs-sm text-muted mb-0">Tornar Política PT Mais Próxima</p>
+            </div>
+        </div>
+    </section>    
 </div>
-
     <!-- Footer -->
-    <footer class="py-4">
+    <footer class="py-4 text-center">
         <p>© 2023 Politica transparente</p>
         <!-- Social Links -->
-        <div>
-            <!-- Social Icons -->
+        <div class="mt-4">
+            <a href="#" class="text-gray-500 hover:text-blue-400 mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-blue-400 mx-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://t.me/+LD5lVbySrnY0MDY8" class="text-gray-500 hover:text-blue-400 mx-2">
+                <i class="fab fa-telegram"></i>
+            </a>
         </div>
     </footer>
-
 </body>
 </html>
